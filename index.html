@@ -1,4 +1,149 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>White Water Rafting - About Us</title>
+  <meta name="description" content="Discover our rafting company, its history, and mission to provide thrilling adventures on the river.">
+  <meta name="author" content="Your Full Name">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Rafting Company Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <div class="hero">
+      <img src="images/hero.jpg" alt="Rafting Adventure">
+      <h1>River Rush Rafting</h1>
+      <article>
+        <img src="images/happy-client.jpg" alt="Happy Client">
+        <p>
+          At River Rush Rafting, our mission is to provide safe, exciting, and unforgettable rafting experiences.
+          Whether you’re a beginner or an experienced adventurer, our team is dedicated to making your journey on the river both thrilling and memorable.
+        </p>
+      </article>
+    </div>
+
+    <!-- History Section -->
+    <section>
+      <h2>History</h2>
+      <p>
+        Our company began many years ago with a small group of river enthusiasts who wanted to share their passion for rafting.
+        Over time, we grew into a trusted adventure company, offering trips for families, thrill-seekers, and explorers alike.
+      </p>
+    </section>
+
+    <!-- Adventure Section -->
+    <section>
+      <h2>Adventure Awaits You!</h2>
+      <!-- Images will be added here in the next assignment -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 River Rush Rafting | Your Full Name</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook-icon.png" alt="Facebook"></a>
+      <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="Twitter"></a>
+      <a href="https://instagram.com"><img src="images/instagram-icon.png" alt="Instagram"></a>
+    </nav>
+  </footer>
+</body>
+</html>
+:root {
+  --primary-color: #004d40;
+  --secondary-color: #ff9800;
+  --accent1-color: #333333;
+  --accent2-color: #ffffff;
+  --body-font: Arial, Helvetica, sans-serif;
+  --heading-font: Georgia, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+/* Limit width and center */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Basic spacing */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Social media links */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Hero styling */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255,255,255,0.8);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+
+<!DOCTYPE html>
 <html>
 <head>
   <title>My Home Page</title>
